@@ -1,0 +1,9 @@
+CREATE TABLE STUDENTS ( empId INTEGER PRIMARY KEY, name TEXT NOT NULL, age INTEGER, address TEXT NOT NULL );
+
+ INSERT INTO STUDENTS VALUES (0001, 'Иван', 18, 'Москва'); 
+ INSERT INTO STUDENTS VALUES (0002, 'Пётр', 22,'Смоленск'); 
+ INSERT INTO STUDENTS VALUES (0003, 'Анна', 35,'Новосибирск'); 
+ INSERT INTO STUDENTS VALUES (0004, 'Юлия', 18,'Сочи'); 
+ INSERT INTO STUDENTS VALUES (0005, 'Николай', 36,'Нижний Новгород');
+
+fetch SELECT * FROM STUDENTS WHERE age > 18;
